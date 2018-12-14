@@ -110,15 +110,8 @@ Sets up styles for .content-container
 
 }
 
-
 .color-container{
     justify-content: space-between;
-    flex-wrap: wrap;
-    display: flex;
-}
-
-.btn-container{
-    justify-content: flex-start;
     flex-wrap: wrap;
     display: flex;
 }
@@ -128,8 +121,6 @@ Sets up styles for .content-container
     flex-wrap: wrap;
     display: flex;
 }
-
-
 
 
 /* color boxes */
@@ -172,10 +163,10 @@ Sets up styles for .content-container
 /* buttons */
 
 .btn{
-    background:#3F5B68;
+    background:#3F5B68; 
 }
 
-.btn1:hover{
+.btn:hover{
     background:#A0B89F;
 }
 
